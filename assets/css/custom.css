@@ -1,0 +1,17 @@
+.prose {
+    text-align: justify;
+}
+
+img.in-text {
+    width: 60%;
+}
+
+img.in-text.fright {
+    float: right;
+    margin: 0 0 0 1em;
+}
+
+img.in-text.fleft {
+    float: left;
+    margin: 0 1em 0 0;
+}

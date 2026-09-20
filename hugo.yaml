@@ -1,0 +1,42 @@
+copyright: © A. Stefanie Blümer
+defaultContentLanguage: de
+disableKinds: [ taxonomy ]
+enableRobotsTXT: true
+languageCode: de
+timeZone: Europe/Berlin
+title: lights-and-pause
+theme: gallery
+
+cascade:
+  build:
+    publishResources: false
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+security:
+  allowContent:
+    - text/html
+    - text/markdown
+
+params:
+  defaultTheme: dark
+  description: lights-and-pause
+  title: lights-and-pause
+  author:
+    email: steffi@lights-and-pause.de
+    name: Stefanie Blümer
+  socialIcons:
+    instagram: https://www.instagram.com/lights_and_pause/
+    email: mailto:steffi@lights-and-pause.de
+  gallery:
+
+imaging:
+  quality: 80
+  resampleFilter: CatmullRom
+  exif:
+    disableDate: false
+    disableLatLong: true
+    includeFields: ImageDescription | Orientation
